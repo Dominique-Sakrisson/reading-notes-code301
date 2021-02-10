@@ -21,4 +21,8 @@ To summarize this article, there 3 pretty simple ways to clearing floats. The em
 The overflow method- setting the overflow to a parent element to hidden the parent will expand to contain floats. It benefit is its very semantic.
 THe easy clearing method- give a parent a class and prefix it with `:after` and rules `content: '.'; visibility: 'hidden'; display: block; height: 0; clear: both;`
 
+## Dont overthink grids
+This article went over a basica grid layout involving two divs. One has a width of 2/3 the other a width of 1/3. Float the 2/3 to the left while floating the 1/3 to the right. Their parent div will now collapse due to the childs being both floated. Apply a style to the parent div with the :after to add a rule `clear: both;` And thats about it.
 
+## CSS floats explained
+This article put floats into human on an escalator terms regarding how floats work and allow other elements to fill in the gaps between floats until a clear property is set and the elements after the clear will no longer fill in between the floated elements. 
