@@ -1,0 +1,3 @@
+# Intro to Node.JS
+
+Node.js is a javascript runtime written on chromse V8 javascript engine. The cool thing about node is that it allows javascript to run asyncronously, basically meaning multiple requests can be made without blocking up the server. Node.js is event based and ships pretty bare bones outt of the box. It becomes very easy to pull dependencies into your projects with node so the applicable usees are vaste. All this allows node to be lightweight and fast. Working a full stack project has never been easier before node, with node you can work front end, and backend all in one language. 
